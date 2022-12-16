@@ -1,0 +1,8 @@
+version: '2'
+services:
+  automx2:
+    image: andif888/docker-automx2:latest
+    ports:
+      - "4243:4243"
+    volumes:
+      - "./etc/automx2:/etc/automx2"
